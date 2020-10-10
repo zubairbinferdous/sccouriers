@@ -1,0 +1,547 @@
+/*
+  Theme Name: Name - solidcity HTML Template
+  Author: zubair bin ferdous.
+  Support: zubidev.info
+  Description: HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. header-part
+2. banner-part
+3. services-part
+4. shaba-part
+5. calcilator-part
+6.
+7.
+8.
+9.
+10.
+*/
+
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+ body {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+    font-style: normal;
+    outline: none;
+}
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.fix {
+	overflow: hidden
+}
+
+a:focus{
+    border: none;
+}
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+
+	text-decoration: none;
+}
+a,
+button {
+
+	outline: none;
+}
+
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+
+
+/* header-part */
+
+
+.form input {
+      border: none;
+      margin-left: 25px;
+      outline: none;
+      margin-top: 9px;
+  }
+
+
+.clo{
+    background-color: #FFFFFF;
+}
+.form{
+  padding-top: 44px;
+    position: relative;
+    padding-left: 172px;
+}
+
+.formcss{
+    background-color: #dad7d7;
+    border: none;
+    padding:8px;
+    border-radius:3px;
+    padding-left: 25px;
+    font-size: 13px;
+}
+
+.formsub{
+    padding: 7px 12px 7px 12px;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color:#FCC753;
+    color: #f2f2f2;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.formsub2{
+    padding: 7px 12px 7px 12px;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: #727272;
+    color: #f2f2f2;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #ffffff00;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.remamber{
+    font-size:14px;
+}
+
+
+button a{
+    color: #f2f2f2;
+}
+
+button a:hover{
+    color: #f2f2f2;
+}
+
+button{
+    outline: none;
+    border: none;
+}
+
+/* .radio{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: black;
+    font-size: 14px;
+} */
+
+.forget{
+      position: absolute;
+      top: 95px;
+      left: 430px;
+      font-size: 14px;
+}
+
+
+/* banner-part */
+
+
+
+.track{
+    background-color:#FCC753 ;
+    width: 400px;
+    padding: 27px 26px 37px 32px;
+
+}
+
+.track h6{
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+}
+.banner-img{
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.banner-data{
+    margin-top: 55px;
+}
+
+.search{
+    width: 280px;
+    background-color:#C3312D;
+    border-radius:5px;
+    margin-left: 26px;
+}
+
+.search a{
+    padding-left: 22px;
+    color: white;
+}
+
+.search input{
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.formcsss{
+    background-color: #fff;
+    border: none;
+    padding:7px;
+    padding-left: 25px;
+    font-size: 14px;
+
+}
+.down{
+    padding: 13px 25px 10px 13px;
+    color: white;
+    background-color: #F58228;
+    border-radius: 5px;
+}
+
+
+.down:hover{
+    color: white;
+}
+
+
+.bann-data .button{
+    margin-left: 108px;
+    margin-top: 45px;
+    margin-bottom: 130px;
+}
+
+
+
+
+
+
+/* services-part */
+
+.service-part{
+    margin-top: 75px;
+}
+
+
+
+
+
+
+/* shaba-part */
+
+.shaba-data{
+    text-align: center;
+    margin-top: 75px;
+}
+
+.area{
+    margin-top: 25px;
+}
+
+
+.shaba-data span{
+    color: red;
+    font-size: 26px;
+}
+
+
+.shaba-dat{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.shaba-dat span{
+    color: red;
+
+}
+.bgf{
+    background-color: #CDE6DB;
+
+}
+
+
+
+/* calculator-part */
+
+.calculator-part{
+    margin-top: 40px;
+
+
+}
+
+.calcilator{
+  background-color: white;
+  margin-top:50px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+
+}
+
+.calci-tital{
+    text-align: center;
+     color: red;
+     margin-top: 25px;
+}
+
+.calci-part{
+    background-color: white;
+    margin-left: 55px;
+    margin-top: 55px;
+    border-radius:7px;
+}
+
+
+  .butto-city button {
+      background-color: #FCC753;
+      padding: 8px 90px;
+      color: #FFFFFF;
+      cursor: pointer;
+  }
+
+
+.city-radio{
+    margin-top: 15px;
+    font-weight: 700;
+
+
+}
+
+.city-radio label {
+    margin-right: 10px;
+
+}
+.calci-part2{
+    margin-top: 45px;;
+}
+
+
+.ogon-area{
+    margin-left: 125px;
+}
+
+.ogon_num label {
+    margin-right:24.3px;
+}
+
+.ogon .radio input {
+    margin-right: 21px;
+}
+
+
+.ogon-part{
+    margin-top:50px;
+    position: relative;
+}
+
+.par-sell{
+    position: absolute;
+    top:18px;
+    left:30px;
+}
+.par-sell p{
+    font-size:13px;
+}
+.diliveri{
+    text-align:center;
+    background-color: red;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.diliveri h4{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.contact-part {
+    padding: 51px 45px 25px 76px;
+
+}
+
+.contact-data{
+  background-color:#FFFCDF;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.contact-data p{
+
+    padding-top:40px;
+
+}
+
+.contact-data p{
+    font-size:15px;
+    color: green;
+}
+
+
+ .contact-data h4 {
+        font-size: 15px;
+        padding-top: 45px;
+        padding-bottom: 77px;
+        color: red;
+ }
+
+
+
+.formsub3{
+    padding: 7px 30px 7px 30px;
+    font-size: 13px;
+    border-radius: 3px;
+    background-color: #FCC753;
+    color: #f2f2f2;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+.contact-data button{
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+
+/* service-part */
+
+.service-slider{
+    margin-top: 85px;
+}
+
+
+.service-slider{
+    background-color:#CDE6DB;
+}
+
+.server-data{
+  padding-top:30px;
+  text-align: center;
+
+}
+
+.server-data h4{
+    font-size:20px;
+}
+
+.service-slider-data{
+    margin-top: 45px;
+}
+.simg{
+    padding-bottom:25px;
+}
+
+
+
+/* footer-part */
+
+.bg-footer{
+    background-color:#081D22;
+}
+
+.footer-part{
+    margin-top: 55px;
+    background-color: green;
+    color:white;
+}
+
+.footerp{
+    font-size: 14px;
+}
+
+
+.footerp3{
+    text-align: center;
+}
+
+.foot1 ul li a{
+    font-size: 15px;
+    color: white;
+}
+
+.foot1 ul li{
+    padding-bottom:12px;
+}
+
+.foot2 ul li{
+    padding-bottom:12px;
+}
+
+
+.foot2 ul li a{
+    font-size: 15px;
+    color: white;
+
+}
+
+
+.footerp3 ul li a{
+    font-size: 14px;
+    color: white;
+}
+
+.icon-phone{
+    color: white;
+    font-size: 25px;
+}
+
+
+.footerp3 ul li {
+
+    padding-bottom: 8px;
+
+}
+
+
+.footerp3 ul li a{
+    font-size: 14px;
+}
+.footar-uol{
+    padding-top: 45px;
+}
+
+
+.footer-menu ul li {
+    display: inline-block;
+}
+
+.footer-menu ul li{
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer-menu ul li a{
+    color: white;
+    padding-top: 25px;
+
+}
